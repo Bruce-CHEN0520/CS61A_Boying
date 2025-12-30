@@ -1,0 +1,35 @@
+def curried_pow(x):
+    def h(y):
+            return pow(x, y)
+    return h
+
+curried_2_to_x_pow = curried_pow(2)
+result = curried_2_to_x_pow(3)
+print(result)
+
+def map_to_range(start, end, f):
+    while start < end:
+        print(f(start))
+        start = start + 1
+
+map_to_range(0,10,curried_2_to_x_pow)
+
+def curry2(f):
+    """Return a curried version of the given two-argument function."""
+    def g(x):
+        def h(y):
+            return f(x, y)
+        return h
+    return g
+
+pow_curried = curry2(pow)
+result2 = pow_curried(2)
+print('result2 =' )
+print(result2)
+
+
+def uncurry2(g):
+    """Return a two-argument version of the given curried function."""
+    def f(x, y):
+        return g(x)(y)
+    return f
