@@ -203,6 +203,18 @@ Functions that manipulate functions are called higher-order functions. This sect
 
 # Chapter 2: Building Abstractions with Data 
 
+## 2.0 QS
+
+a truncated finite approximation to the actual ratio of the two integers divided.
+
+what does truncated mean?
+
+
+
+For those interested in further details, a chapter on [native data types](http://getpython3.com/diveintopython3/native-datatypes.html) in the online book Dive Into Python 3 gives a pragmatic overview of all Python's native data types and how to manipulate them, including numerous usage examples and practical tips.
+
+pragmatic overview meaning?
+
 ## 2.1  Introduction
 
 We concentrated in Chapter 1 on computational processes and on the role of functions in program design. We saw how to use primitive data (numbers) and primitive operations (arithmetic), how to form compound functions through composition and control, and how to create functional abstractions by giving names to processes. We also saw that higher-order functions enhance the power of our language by enabling us to manipulate, and thereby to reason, in terms of general methods of computation. This is much of the essence of programming.
