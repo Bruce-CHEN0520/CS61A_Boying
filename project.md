@@ -754,3 +754,45 @@ If you're interested, you can take your implementation of Hog one step further b
 You will **turn in** the following files:
 
 - `cats.py`
+
+
+
+
+
+# Ants
+
+## phase1
+
+
+
+## phase2
+
+some syntax I have to konw
+
+
+
+why? 
+
+**Important**: Damaging a bee may cause it to be removed from its place; when an insect dies, it is removed from its current place. If you iterate over a list, but change the contents of that list at the same time, you [may not visit all the elements](https://docs.python.org/3/tutorial/controlflow.html#for-statements). This can be prevented by making a copy of the list. You can either use a list slice, or use the built-in `list` function to make sure the original list is not affected.
+
+
+
+  def __init__(self, health: int = 3):
+
+
+
+unfamiliar to the usage of super 
+
+and the method of parent class
+
+for in in list 
+
+list()
+
+
+
+why the question is easy but I spend much time?
+
+1. reading and understanding the question
+
+2. 
