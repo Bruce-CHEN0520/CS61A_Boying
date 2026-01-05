@@ -795,4 +795,38 @@ why the question is easy but I spend much time?
 
 1. reading and understanding the question
 
-2. 
+
+
+for class Parent A with constructor that has 4 paranmeter
+
+child b super init__(health)
+
+
+
+
+
+![image-20260104105022472](C:\Users\boying.chen\AppData\Roaming\Typora\typora-user-images\image-20260104105022472.png)
+
+
+
+1/4: what is **class** attribute
+
+![image-20260104112420322](C:\Users\boying.chen\AppData\Roaming\Typora\typora-user-images\image-20260104112420322.png)
+
+  def __init__(self, health: int = 1, cooldown: int = 0):
+
+​    cooldown = cooldown
+
+​    super.__init__(health)
+
+
+
+
+
+descriptor '__init__' of 'super' object needs an argument
+
+
+
+
+
+总结用AI 完成的题目

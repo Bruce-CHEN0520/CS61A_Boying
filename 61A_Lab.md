@@ -176,3 +176,15 @@ If you choose to use VS Code as your text editor (instead of the web-based edito
 ![image-20251211191338530](C:\Users\boying.chen\AppData\Roaming\Typora\typora-user-images\image-20251211191338530.png)
 
 **Tip:** You can open the terminal in VS Code by pressing **Control + `** (the key above Tab).
+
+
+
+### q1
+
+ (if (= num1 num2) 0)
+
+ (if (> num1 num2) 1)
+
+### q2
+
+ (define (add-sum inc) (+ inc num) )
